@@ -74,12 +74,13 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 10%;
+  border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotateX(360deg);
+  border-radius: 10%;
+  transform: scale(1.1) rotate(360deg);
 }
 
 h1 {
@@ -113,6 +114,10 @@ h1 {
   border-radius: 6px;
 }
 
+.about {
+  line-height: 25px;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -137,12 +142,33 @@ ul.skills {
   display: inline-block;
   background: #ff9904;
   color: white;
-  padding: 5px 10px;
+  padding: 10px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #4fabd6;
+}
+
+.skills li:hover {
+  transform: scale(1.1);
+}
+
+.meg {
+  width: 200px;
+  height: 200px;
+  float: right;
+  border-radius: 50%;
+  border: 3px solid slategrey;
+}
+
+.contact {
+  color: black;
+  line-height: 30px;
+}
+
+.contact:hover {
+  color: slategrey;
 }
 
 footer {
@@ -229,5 +255,14 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+@media screen and (max-width: 720px) {
+
+  .meg {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+  }
 }
 
