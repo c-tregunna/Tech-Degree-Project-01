@@ -79,8 +79,14 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotateX(360deg);
 }
+
+h1 {
+  font-size: 3.5em;
+  text-shadow: 2px 2px #ddd;
+}
+
 .tag {
   background-color: #f7f5f0;
   color: black;
@@ -89,9 +95,11 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
 .location {
   background-color: ##f7f5f0;
   color: black;
+  font-size: 1.6em;
 }
 
 .intro {
