@@ -84,7 +84,6 @@ header .profile-image {
 header .profile-image:hover {
   border-radius: 10%;
   transform: scale(1.1) rotate(360deg);
-  transform: scale3d(30);
 }
 
 h1 {
@@ -102,7 +101,7 @@ h1 {
 } 
 
 .location {
-  background-color: ##f7f5f0;
+  background-color: #f7f5f0;
   color: black;
   font-size: 1.6em;
 }
