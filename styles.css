@@ -113,8 +113,9 @@ h1 {
   max-width: 900px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid slategrey;
+  /*border-bottom: 4px solid slategrey;*/
   border-radius: 6px;
+  box-shadow: 3px 3px 10px #ddd;
 }
 
 .about {
@@ -127,9 +128,10 @@ h1 {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid slategrey;
+  /*border-bottom: 4px solid slategrey;*/
   border-radius: 6px;
   transition: all .5s;
+  box-shadow: 3px 3px 10px #ddd;
 }
 /*.card:hover {
   border-color: #ff99ff;
