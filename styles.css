@@ -159,13 +159,20 @@ ul.skills {
   transform: scale(1.1);
 }
 
-.meg {
+.intro-image {
   width: 200px;
   height: 200px;
   float: right;
   border-radius: 50%;
   border: 3px solid slategrey;
   margin-top: 100px;
+}
+
+.intro-image-contact {
+  width: 250px;
+  height: 250px;
+  float: right;
+  border: 3px solid slategrey;
 }
 
 .contact {
@@ -269,10 +276,21 @@ a.social:hover {
 
 @media screen and (max-width: 720px) {
 
-  .meg {
+  .intro-image {
     height: 150px;
     width: 150px;
     margin: 100px 20px;
   }
-}
 
+    .intro-image-contact {
+    height: 150px;
+    width: 150px;
+  }
+
+@media screen and (max-width: 520px) {
+
+
+    .intro-image-contact {
+    display: none;
+  }
+}
